@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/bg_img.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 50px 200px;
+}
+#logopart{float: left;}
+#logo{
+    width: 200px;
+    margin-bottom: 30px;
+}
+.banner{
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+}
+.tabs{
+    background: rgb(19,20,20);
+    background: linear-gradient(90deg, rgba(19,20,20,0.5327380952380952) 100%, rgba(193,55,219,1) 100%);
+    width: 350px;
+    height: 130px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+section{padding: 25px 0 20px 130px;}
+#logopart h1{
+    font: bold 1.3em Arial;
+    color: white;
+    margin-bottom: 20px;
+   
+}
+#logopart h2{
+    font: bold 1.2em Arial;
+    color: white;
+}
+#logopart h3{
+    font:  1em Arial;
+    color: rgb(219, 212, 212);
+}
+.fa-circle{
+    color: rgb(255, 162, 0);
+    font-size: 6px;
+    float: left;
+    padding: 10px 10px 0 0px
+}
+.fa-plus{
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#card{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    float: right;
+    background: white;
+}
+#card i{
+    float: right;
+    margin: 20px;
+    padding: 7px 10px;
+    border: solid gray 0.5px;
+    border-radius: 30px;
+}
+#card h2{
+    font: 2em Arial;
+    padding: 30px 20px;
+}
+#card p{
+    font: 0.8em Arial;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: blue;  
+}
+#card h3{
+    margin: 35px 20px 0px 20px ;
+    font: 0.8em Arial;
+}
+input, button{ width: 90%; padding: 15px; margin: 20px 0px 0px 20px;  border: none; border-radius: 10px; font: bold 1em Arial ; color: white;background: rgb(239, 237, 237);}
+#purplebut{background: #6c5dd2; margin-top: 35px;}
+#bluebut{background: #1b77ff; margin-top: 35px;}
